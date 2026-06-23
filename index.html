@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Smart Vyapaar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #000666;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+            --border-color: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            border-bottom: 1px solid var(--border-color);
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 24px;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 30px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        p, ul {
+            font-size: 15px;
+            color: #334155;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            display: inline-block;
+            background-color: rgba(0, 6, 102, 0.08);
+            color: var(--primary);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 13px;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            margin-top: 40px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Smart Vyapaar</div>
+        <div class="subtitle">Official Privacy Policy & Terms</div>
+    </header>
+
+    <div class="container">
+        <div class="last-updated">LAST UPDATED: MAY 2026</div>
+
+        <h2>1. Overview (Your Data, Your Rights)</h2>
+        <p>Smart Vyapaar is built with an "Offline-First" architecture. In simple terms, your business data such as customers, bills, sales, and inventory is securely stored on your local device first. We never sell your data or share it with third parties.</p>
+
+        <h2>2. Information We Collect</h2>
+        <p>To ensure the app operates smoothly, we collect only the necessary details:</p>
+        <ul>
+            <li><strong>Account Details:</strong> Your Mobile Number (for OTP verification), Merchant Name, and Business Name.</li>
+            <li><strong>Business Ledger:</strong> Customer list, outstanding balances (udhaar), inventory transactions, and sales logs.</li>
+            <li><strong>Audio Permissions:</strong> To use the voice assistant, "Record Audio" permission is required. Your voice is only converted to text in real time, and the audio files are never stored.</li>
+        </ul>
+
+        <h2>3. Secure Synchronization (Cloud Backup)</h2>
+        <p>Your data remains safe in the local SQLite database. When internet is available, your data is securely backup synced through an encrypted network to your personal Supabase account, ensuring your records remain safe even if you lose your phone.</p>
+
+        <h2>4. AI Integration (Vyapaar Mitra)</h2>
+        <p>We use Llama (via Groq secure API) to process your business analytics and voice entries. During AI processing, only business facts and numerical figures are sent; your personal identity (such as phone numbers or personal details) is fully masked.</p>
+
+        <h2>5. Terms of Service</h2>
+        <ul>
+            <li>Smart Vyapaar is a business management utility tool.</li>
+            <li>You are solely responsible for and own your business and billing records.</li>
+            <li>Free tier limits and AI tokens usage policy are based on standard subscription rules.</li>
+        </ul>
+
+        <h2>6. Data Deletion & Control</h2>
+        <p>You can delete your entire account at any time in the settings. Tapping "Delete Account" instantly and permanently wipes all your personal info, transactions, and logs from both the cloud (Supabase) and your local device.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Smart Vyapaar. All rights reserved.<br>
+        Designed to empower Indian MSME Merchants.
+    </footer>
+
+</body>
+</html>
